@@ -22,7 +22,7 @@ $(function(){
     console.log(resultArray);
     var result = divisible(inputNum);
     resultArray.forEach(function(number){
-      $("#outputUl").append("<li>"+number+"</li>");
+      $("#outputUl").append("<p>"+number+"</p>");
     });
   });
 });

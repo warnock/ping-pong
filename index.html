@@ -11,19 +11,29 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
+      <div class="jumbotron">
         <h1>Ping Pong</h1>
       </div>
-      <form id="pingPong">
-        <div class="form-group">
-          <label for="numInput">Enter a number to play Ping Pong!</label>
-          <input type="text" name="numInput" id="numInput">
-        </div>
-        <button type="submit" clss="btn">Ping Pong!</button>
-      </form>
+      <div class="container2">
+        <h2>Play JavaScript Ping Pong!</h2>
+        <h3>Here are the rules:</h3>
+        <h4>Ping Pong will count up to your number from 1 with the following exceptions:</h4>
+        <ol>
+          <li>Numbers divisible by 3 become "ping".</li>
+          <li>Numbers divisible by 5 become "pong".</li>
+          <li>Numbers divisible by 15 become "ping-pong".</li>
+        </ol>
+        <form id="pingPong">
+          <div class="form-group">
+            <label for="numInput">Enter a number to play Ping Pong!</label>
+            <input type="text" name="numInput" id="numInput">
+          </div>
+          <button type="submit" clss="btn">Ping Pong!</button>
+        </form>
 
-    <div id="output"></div>
-      <ul id="outputUl"></ul>
+      <div id="output"></div>
+        <p id="outputUl"></p>
+      </div>
     </div>
   </body>
 </html>
