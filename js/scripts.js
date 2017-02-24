@@ -14,8 +14,6 @@ function divisible(number) {
   }
 };
 
-
-
 //front end logic
 $(function(){
   $("#pingPong").submit(function(){

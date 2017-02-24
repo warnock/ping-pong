@@ -1,0 +1,10 @@
+.header {
+  background: url(../img/pingPong.jpg) no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  height: 300px;
+}
+h1 {
+  font-size: 100px;
+  padding: 40px;
+}
